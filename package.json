@@ -1,0 +1,15 @@
+{
+  "name": "gitmoji-simple",
+  "description": "just the gitmojis",
+  "version": "1.0.0",
+  "author": "Jeff Dickey @jdxcode",
+  "files": [
+    "gitmojis.json"
+  ],
+  "license": "MIT",
+  "main": "gitmojis.json",
+  "repository": "https://github.com/jdxcode/gitmoji-simple",
+  "scripts": {
+    "prepare": "git submodule update --init --remote --force && cp gitmoji/src/data/gitmojis.json gitmojis.json"
+  }
+}
